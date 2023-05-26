@@ -26,6 +26,18 @@ for string in my_strings:
 for number in my_numbers:
     print('Look at this number:', number)
 
+def static_greeting():
+    print('Hello Isael')
+
+static_greeting()
+
+def dynamic_greeting(name):
+    print(f'Hello, {name}')
+
+dynamic_greeting('Isael')
+dynamic_greeting('Daisy')
+dynamic_greeting('Amy')
+
 
 
 
