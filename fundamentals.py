@@ -39,6 +39,14 @@ dynamic_greeting('Daisy')
 dynamic_greeting('Amy')
 
 
+def find_treasure(array):
+    for i in array:
+        if(i == 'Treasure'):
+            return True   
+    return False
+
+print(find_treasure(['One', 'Two', 'Three']))
+print(find_treasure(['Four', 'Five', 'Treasure']))
 
 
 
